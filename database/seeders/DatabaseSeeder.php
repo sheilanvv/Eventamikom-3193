@@ -72,5 +72,38 @@ class DatabaseSeeder extends Seeder
             'stock' => 100,
             'poster_path' => 'poster/event-3.png'
         ]);
+
+        \App\Models\Event::create([
+            'category_id' => $category->id,
+            'title' => 'Digital Marketing Bootcamp',
+            'description' => 'Belajar strategi pemasaran digital from zero to hero',
+            'date' => '2026-04-25 10:40:00',
+            'location' => 'Cinema Unit 6',
+            'price' => 60000,
+            'stock' => 85,
+            'poster_path' => 'poster/event-4.png'
+        ]);
+
+        \App\Models\Event::create([
+            'category_id' => $category2->id,
+            'title' => 'E-Sport U-Champ',
+            'description' => 'Turnamen E-Sport antar kampus, daftar dan menangkan hadiah menarik',
+            'date' => '2026-05-15 13:00:00',
+            'location' => 'Hall Amikom',
+            'price' => 30000,
+            'stock' => 150,
+            'poster_path' => 'poster/event-5.png'
+        ]);
+
+        \App\Models\Event::create([
+            'category_id' => $category3->id,
+            'title' => 'UI/UX Masterclass',
+            'description' => 'Belajar UI/UX bersama para profesional',
+            'date' => '2026-01-12 09:00:00',
+            'location' => 'Ruang 7.3.1',
+            'price' => 50000,
+            'stock' => 50,
+            'poster_path' => 'poster/event-6.png'
+        ]);
     }
 }
