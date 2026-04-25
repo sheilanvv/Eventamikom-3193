@@ -2,6 +2,7 @@ Tugas 1 - Digital Bisnis
 Nama: Nvidia Sheila Luthfi Amanda
 NIM: 24.12.3193 
 Link: https://eventamikom-3193-main-tesarc.free.laravel.cloud/
+https://cloud.laravel.com/nvidiasheila/eventamikom-3193/main
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
